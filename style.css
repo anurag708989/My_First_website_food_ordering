@@ -1,0 +1,245 @@
+Body {
+    color: white;
+
+}
+
+#logo img {
+    width: 80px;
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 100%;
+
+}
+
+#navbar {
+    display: flex;
+    background-color: rgb(145, 143, 143);
+
+
+
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    font-size: 1.4rem;
+
+
+}
+
+.item a {
+    font-size: 30px;
+    margin: 30px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 25px;
+    font-family: 'Fredoka One', cursive;
+    background-color: rgb(39, 39, 39);
+
+}
+
+#navbar::before {
+
+    content: "";
+    background: url("images/background3.jpg") no-repeat;
+    z-index: -1;
+    width: 500px;
+    padding: 500px;
+    position: absolute;
+    opacity: 0.86;
+    border: 2px solid red;
+
+
+
+
+}
+
+#navbar a:hover {
+    background-color: rgb(114, 111, 111);
+
+
+}
+
+#home {
+    font-family: 'Fredoka One', cursive;
+    color: rgb(67, 3, 3);
+    ;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 24px 24px;
+    margin-top: 80px;
+    height: 789px;
+    font-size: 35px;
+}
+
+#ordernow {
+    color: white;
+    font-size: 28px;
+    background-color: red;
+    font-family: 'Fredoka One', cursive;
+    border: 1px solid rgb(19, 19, 19);
+    border-radius: 5px;
+    width: 20%;
+    height: 50px;
+    padding: 6px;
+    margin-top: 10px;
+    margin-left: 400px;
+    /* animation-name: size_color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; */
+    cursor: pointer;
+
+
+}
+
+/* 
+@keyframes size_color {
+    from {
+        height: 60px;
+        background-color: rgba(235, 77, 37, 0.658);
+    }
+
+    to {
+        height: 50px;
+    }
+
+} */
+
+#ordernow:hover {
+    background-color: rgb(238, 127, 0);
+}
+
+.ourservices {
+    display: flex;
+    border: 2px solid red;
+    color: black;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Fredoka One', cursive;
+    background-color: rgb(236, 222, 222);
+
+
+
+}
+
+.section-block {
+    display: flex;
+    border: 2px solid red;
+
+    background-color: rgb(207, 80, 58);
+
+
+
+
+}
+
+.ourservices h1 {
+    font-size: 35px;
+}
+
+.sectionservice {
+
+    display: flex;
+    border: 3px solid rgb(110, 60, 60);
+    flex-direction: column;
+    width: 400px;
+    border-radius: 10px;
+    margin: 50px;
+    background-color: rgb(250, 244, 244);
+
+
+
+
+}
+
+.sectionservice img {
+    width: 400px;
+}
+
+.clientssection::before {
+
+    content: "";
+    position: absolute;
+    background: url("images/pasta.jpg") no-repeat;
+    width: 500px;
+    padding: 260px 500px;
+    z-index: -1;
+    height: 20px;
+    opacity: 0.5;
+
+
+}
+
+.clientssection {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.clientsblock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clientsblock img {
+    height: 100px;
+
+}
+
+.client {
+
+
+    margin: 30px;
+
+}
+.end{
+    font-size: 35px;
+    text-align: center;
+    background-color: black;
+    color:white:
+}
+.contacts label{
+    color:rgb(255, 255, 255);
+}
+.contacts{
+    display:flex;
+    text-align: center;
+    margin-top: 11px;
+  
+
+}
+.contacts-block{
+    font-family: 'Fredoka One', cursive;
+    margin:auto;
+    padding:30px;
+    background-color:rgb(179, 51, 46);
+    border: 2px solid red;
+    margin-top: 9px;
+
+}
+.contacts::before{
+    content:"";
+    position:absolute;
+    background: url("images/contactus.jpg") no-repeat ;
+    height: 448px;
+    width: 98.8%;
+    z-index:-1;
+    opacity:0.6;
+    margin: 9px;
+    left: 0px;
+ 
+}
+.form-group{
+    display:flex;
+    flex-direction: column;
+    
+
+}
+.form-group input,.form-group textarea{
+    width:100%;
+}
